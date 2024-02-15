@@ -35,7 +35,7 @@ class Delete extends Request implements HasBody
     /**
      * @var Method
      */
-    protected Method $method = Method::DELETE;
+    protected Method $method = Method::POST;
 
     /**
      * @param array $index
